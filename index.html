@@ -204,7 +204,7 @@ if (footer.innerText.length > 0) {
     story.appendChild(footer);
 }
 
-mapboxgl.accessToken = env.access_token;
+mapboxgl.accessToken = config.accessToken;
 
 const transformRequest = (url) => {
     const hasQuery = url.indexOf("?") !== -1;	  
