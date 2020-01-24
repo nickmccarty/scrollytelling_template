@@ -4,9 +4,9 @@ var config = {
     showMarkers: true,
     theme: 'light',
     alignment: 'left',
-    title: 'The Title Text of this Story',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
-    byline: 'By a Digital Storyteller',
+    title: 'The Effect of Housing Policy on Housing Supply in San Francisco',
+    subtitle: "An Analysis Conducted by Code for SF's",
+    byline: 'Data Science Working Group',
     footer: 'Source: source citations, etc.',
     chapters: [
         {
