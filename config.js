@@ -1,5 +1,5 @@
 var config = {
-    style: 'mapbox://styles/mapbox/streets-v11',
+    style: 'mapbox://styles/nickmccarty/ck5rbwmxj00f61in3ixl3vtp1/draft',
     accessToken: 'pk.eyJ1Ijoibmlja21jY2FydHkiLCJhIjoiY2pxemppMDZoMGJxeDQ0dDJ5OWxhcXA3dCJ9.k6cGbYHEbY2UDT-D6chFbw',
     showMarkers: true,
     theme: 'light',
@@ -15,9 +15,9 @@ var config = {
             image: './path/to/image/source.png',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
-                center: [-122.418398, 37.759483],
-                zoom: 13.5,
-                pitch: 60,
+                center: [-122.420, 37.772],
+                zoom: 11.45,
+                pitch: 0,
                 bearing: 0
             },
             onChapterEnter: [
