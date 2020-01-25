@@ -20,18 +20,18 @@ var config = {
                 pitch: 0,
                 bearing: 0
             },
-            onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1
-                // }
-            ],
-            onChapterExit: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 0
-                // }
-            ]
+//             onChapterEnter: [
+//                 // {
+//                 //     layer: 'layer-name',
+//                 //     opacity: 1
+//                 // }
+//             ],
+//             onChapterExit: [
+//                 // {
+//                 //     layer: 'layer-name',
+//                 //     opacity: 0
+//                 // }
+//             ]
         },
         {
             id: 'other-identifier',
