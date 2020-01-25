@@ -1,7 +1,7 @@
 var config = {
     style: 'mapbox://styles/nickmccarty/ck5rbwmxj00f61in3ixl3vtp1/draft',
     accessToken: 'pk.eyJ1Ijoibmlja21jY2FydHkiLCJhIjoiY2pxemppMDZoMGJxeDQ0dDJ5OWxhcXA3dCJ9.k6cGbYHEbY2UDT-D6chFbw',
-    showMarkers: true,
+    showMarkers: false,
     theme: 'light',
     alignment: 'left',
     title: 'The Effect of Housing Policy on Housing Supply in San Francisco',
