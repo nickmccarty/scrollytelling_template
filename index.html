@@ -225,10 +225,10 @@ var map = new mapboxgl.Map({
     transformRequest: transformRequest
 });
 
-var marker = new mapboxgl.Marker();
-if (config.showMarkers = true) {
-    marker.setLngLat(config.chapters[0].location.center).addTo(map);
-}
+// var marker = new mapboxgl.Marker();
+// if (config.showMarkers = true) {
+//     marker.setLngLat(config.chapters[0].location.center).addTo(map);
+// }
 
 // instantiate the scrollama
 var scroller = scrollama();
@@ -245,9 +245,9 @@ map.on("load", function() {
         var chapter = config.chapters.find(chap => chap.id === response.element.id);
         response.element.classList.add('active');
         map.flyTo(chapter.location);
-        if (config.showMarkers = true) {
-            marker.setLngLat(chapter.location.center);
-        }
+//         if (config.showMarkers = true) {
+//             marker.setLngLat(chapter.location.center);
+//         }
         if (chapter.onChapterEnter.length > 0) {
             chapter.onChapterEnter.forEach(setLayerOpacity);
         }
